@@ -1,0 +1,78 @@
+#!/bin/bash
+
+# Attempt 2.
+
+# Check for arguments.
+if [[ "${#}" -ne 1 ]] 
+then
+	echo "Usage: ${0} FILE_NAME "
+	exit 1
+fi
+
+# Initializations.
+FILE=${1}
+declare -a TEAMS
+declare -A POINTS
+declare -A SCORED
+declare -A RECEIVED
+
+# Read file with scores.
+while read LINE 
+do
+	# Containts of the line.
+	OBJ[0]=$(echo ${LINE} | cut -d '-' -f 1)
+	OBJ[1]=$(echo ${LINE} | cut -d '-' -f 2 | cut -d ':' -f 1)
+	OBJ[2]=$(echo ${LINE} | cut -d '-' -f 2 | cut -d ':' -f 2)
+	OBJ[3]=$(echo ${LINE} | cut -d '-' -f 3)
+
+	# Assignments.
+	for (( I=0; I<2; I++))
+	do
+
+		# Check if a team is already in the list else put it in.
+		if [[ ! "${TEAMS[@]}" =~ "${OBJ[I]}" ]]
+		then
+			TEAMS+=(${OBJ[I]})
+		fi
+
+		# Scored, received.
+		SWAP=( 2 3 )
+
+		if [[ "${I}" -eq 1 ]] 
+		then
+			SWAP=( 3 2 )
+		fi
+
+		SCORED[${OBJ[I]}]=$(( SCORED[${OBJ[I]}] + ${OBJ[${SWAP[0]}]} ))
+		RECEIVED[${OBJ[I]}]=$(( RECEIVED[${OBJ[I]}] + ${OBJ[${SWAP[1]}]} ))
+	done
+	
+	# Points.
+	MARKS=( 0 0 )
+	
+	if [[ "${OBJ[2]}" -eq "${OBJ[3]}" ]] 
+	then
+		MARKS=( 1 1 )	
+	elif [[ "${OBJ[2]}" -gt "${OBJ[3]}" ]]
+	then
+		MARKS=( 3 0 )
+	else
+		MARKS=( 0 3 )
+	fi	
+
+	POINTS[${OBJ[0]}]=$(( POINTS[${OBJ[0]}] + ${MARKS[0]} ))
+	POINTS[${OBJ[1]}]=$(( POINTS[${OBJ[1]}] + ${MARKS[1]} ))
+
+done < ${FILE}
+
+# Create file to the store results.
+for K in "${TEAMS[@]}"
+do 
+	echo ${K} ${POINTS[${K}]} ${SCORED[${K}]} ${RECEIVED[${K}]} | awk '{printf "%s\t%d\t%d-%d\n", $1, $2, $3, $4}' >> tmp.txt
+done
+
+# Sort the file numerically and lexicographically inverted then enumerate each line and add a dot. 
+sort -k 1,1 -nrk 2,2 tmp.txt | awk '{print NR ".\t" $s}'
+
+# Remove any temporary files.
+rm tmp.txt
