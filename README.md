@@ -11,7 +11,7 @@ Regr--->
 
 Results--->
 
-./create_scores.sh FILE_NAME NUM_OF_MATCHES
+./create_scores.sh FILE_NAME NUM_OF_MATCHES      
 ./results.sh FILE_NAME
 
 ---------------------------------------------
