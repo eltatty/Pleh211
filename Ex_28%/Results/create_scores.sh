@@ -10,7 +10,7 @@ then
 fi
 
 # Initialize array teams, scores.
-TEAMS=(Spain Greece Portugal Italy France England Germany Poland Brazil Argentina Uruguay China Japan Australia Netherlands Wales Chile)
+TEAMS=(Spain Greece Portugal Italy France England Germany Poland Brazil Colombia Uruguay China Japan Croatia Turkey Wales Chile)
 SCORES=(0 1 2 3 4 5)
 
 # File to create.
