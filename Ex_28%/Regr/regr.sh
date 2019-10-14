@@ -53,7 +53,7 @@ do
 	# Err -->
 	for (( I=0; I<${LENGTH}; I++ ))
 	do 		
-		ERR=$(echo "${Y[$I]} - ((${A} * ${X[$I]}) + ${B})^2" | bc -l )
+		ERR=$(echo "${ERR} + (${Y[$I]} - (${A} * ${X[$I]} + ${B}))^2" | bc -l )
 	done	
 	
 	#Debugging
