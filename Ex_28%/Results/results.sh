@@ -72,7 +72,7 @@ do
 done
 
 # Sort the file numerically and lexicographically inverted then enumerate each line and add a dot. 
-sort -k 1,1 -nrk 2,2 tmp.txt | awk '{print NR ".\t" $s}'
+sort -rnk 2 -k 1,1 tmp.txt | awk '{print NR ".\t" $s}'
 
 # Remove any temporary files.
 rm tmp.txt
