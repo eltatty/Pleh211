@@ -1,2 +1,7 @@
-Portugal-Greece:1-0
-Greece-Spain:2-2
+Italy-Spain:3-0
+Italy-Greece:3-0
+Spain-Greece:2-1
+Spain-Greece:1-2
+Italy-Wales:2-2
+Italy-Poland:2-1
+Puerto Rico-Malta:1-1

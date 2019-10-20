@@ -77,12 +77,14 @@ done < ${FILE}
 # Create file to the store results.
 for K in "${TEAMS[@]}"
 do
-	echo | awk -v A="${K}" -v B="${POINTS[${K}]} " -v C="${SCORED[${K}]}" -v D="${RECEIVED[${K}]}" '{ printf A"\t"B"\t"C"-"D"\n"}' >> tmp.txt
+	#echo | awk -v A="${K}" -v B="${POINTS[${K}]} " -v C="${SCORED[${K}]}" -v D="${RECEIVED[${K}]}" '{ printf A"\t"B"\t"C"-"D"\n" }' >> tmp.txt
 	#echo ${K} ${POINTS[${K}]} ${SCORED[${K}]} ${RECEIVED[${K}]} | awk '{printf "%s\t%d\t%d-%d\n", $1, $2, $3, $4}' >> tmp.txt
+	echo "${K}	${POINTS[${K}]}		${SCORED[${K}]}-${RECEIVED[${K}]}" >> tmp.txt 
 done
 
 # Sort the file numerically and lexicographically inverted then enumerate each line and add a dot. 
-sort -k 1,1 -nk 3,3 tmp.txt | awk '{print NR ".\t" $s}'
+cat tmp.txt
+#sort -rk 2,2 -rnk 4,4 tmp.txt | awk '{print NR ".\t" $s}'
 
 # Remove any temporary files.
 rm tmp.txt
