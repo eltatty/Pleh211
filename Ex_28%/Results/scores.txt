@@ -4,4 +4,4 @@ Spain-Greece:2-1
 Spain-Greece:1-2
 Italy-Wales:2-2
 Italy-Poland:2-1
-Puerto Rico-Malta:1-1
+Puerto Rico-Malta:0-0

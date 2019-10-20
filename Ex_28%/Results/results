@@ -79,7 +79,7 @@ for K in "${TEAMS[@]}"
 do
 	#echo | awk -v A="${K}" -v B="${POINTS[${K}]} " -v C="${SCORED[${K}]}" -v D="${RECEIVED[${K}]}" '{ printf A"\t"B"\t"C"-"D"\n" }' >> tmp.txt
 	#echo ${K} ${POINTS[${K}]} ${SCORED[${K}]} ${RECEIVED[${K}]} | awk '{printf "%s\t%d\t%d-%d\n", $1, $2, $3, $4}' >> tmp.txt
-	echo "${K}	${POINTS[${K}]}		${SCORED[${K}]}-${RECEIVED[${K}]}" >> tmp.txt 
+	echo "${K}	${POINTS[${K}]}	${SCORED[${K}]}-${RECEIVED[${K}]}" >> tmp.txt 
 done
 
 # Sort the file numerically and lexicographically inverted then enumerate each line and add a dot. 
