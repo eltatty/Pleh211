@@ -30,18 +30,38 @@ do
 	echo "${OBJ[1]}"
 	echo "${OBJ[2]}"
 	echo "${OBJ[3]}"
-	'
+	'	
 
 	# Assignments.
 	for (( I=0; I<2; I++))
 	do
+		
+		#Check if a team is already in the list else put it in
+		EXISTS=0
 
+		for P in "${TEAMS[@]}"
+		do
+			if [[ "${P}" == "${OBJ[I]}" ]]
+			then
+				EXISTS=1
+			fi
+		done
+		
+		if [[ "${EXISTS}" -eq 0 ]]
+		then
+			TEAMS+=("${OBJ[I]}")
+		fi
+		
+
+		: '	
 		# Check if a team is already in the list else put it in.
 		if [[ ! "${TEAMS[@]}" =~ "${OBJ[I]}" ]]
 		then
 			TEAMS+=("${OBJ[I]}")
 			
 		fi
+		'
+		
 
 		# Scored, received.
 		SWAP=( 2 3 )
@@ -80,11 +100,11 @@ do
 	#echo | awk -v A="${K}" -v B="${POINTS[${K}]} " -v C="${SCORED[${K}]}" -v D="${RECEIVED[${K}]}" '{ printf A"\t"B"\t"C"-"D"\n" }' >> tmp.txt
 	#echo ${K} ${POINTS[${K}]} ${SCORED[${K}]} ${RECEIVED[${K}]} | awk '{printf "%s\t%d\t%d-%d\n", $1, $2, $3, $4}' >> tmp.txt
 	echo "${K}	${POINTS[${K}]}	${SCORED[${K}]}-${RECEIVED[${K}]}" >> tmp.txt 
+	#echo "${K}"
 done
 
 # Sort the file numerically and lexicographically inverted then enumerate each line and add a dot. 
-cat tmp.txt
-#sort -rk 2,2 -rnk 4,4 tmp.txt | awk '{print NR ".\t" $s}'
+sort -t$'\t' -k2,2rn -k1 tmp.txt | awk '{print NR ".\t" $s}'
 
 # Remove any temporary files.
 rm tmp.txt

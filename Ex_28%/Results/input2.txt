@@ -1,0 +1,380 @@
+Arsenal-Bournemouth:5-1
+Arsenal-Brighton:1-1
+Arsenal-Burnley:3-1
+Arsenal-Cardiff:2-1
+Arsenal-Chelsea:2-0
+Arsenal-Crystal:2-3
+Arsenal-Everton:2-0
+Arsenal-Fulham:4-1
+Arsenal-Huddersfield:1-0
+Arsenal-Leicster:3-1
+Arsenal-Liverpool:1-1
+Arsenal-Manchester City:0-2
+Arsenal-Manchester:2-0
+Arsenal-Newcastle:2-0
+Arsenal-Southampton:2-0
+Arsenal-Tottenham:4-2
+Arsenal-Watford:2-0
+Arsenal-WestHam:3-1
+Arsenal-Wolvs:1-1
+Bournemouth-Arsenal:1-2
+Bournemouth-Brighton:2-0
+Bournemouth-Burnley:1-3
+Bournemouth-Cardiff:2-0
+Bournemouth-Chelsea:4-0
+Bournemouth-Crystal:2-1
+Bournemouth-Everton:2-2
+Bournemouth-Fulham:0-1
+Bournemouth-Huddersfield:2-1
+Bournemouth-Leicster:4-2
+Bournemouth-Liverpool:0-4
+Bournemouth-Manchester City:0-1
+Bournemouth-Manchester:1-2
+Bournemouth-Newcastle:2-2
+Bournemouth-Southampton:0-0
+Bournemouth-Tottenham:1-0
+Bournemouth-Watford:3-3
+Bournemouth-WestHam:2-0
+Bournemouth-Wolvs:1-1
+Brighton-Arsenal:1-1
+Brighton-Bournemouth:0-5
+Brighton-Burnley:1-3
+Brighton-Cardiff:0-2
+Brighton-Chelsea:1-2
+Brighton-Crystal:3-1
+Brighton-Everton:1-0
+Brighton-Fulham:2-2
+Brighton-Huddersfield:1-0
+Brighton-Leicster:1-1
+Brighton-Liverpool:0-1
+Brighton-Manchester City:1-4
+Brighton-Manchester:3-2
+Brighton-Newcastle:1-1
+Brighton-Southampton:0-1
+Brighton-Tottenham:1-2
+Brighton-Watford:0-0
+Brighton-WestHam:1-0
+Brighton-Wolvs:1-0
+Burnley-Arsenal:1-3
+Burnley-Bournemouth:4-0
+Burnley-Brighton:1-0
+Burnley-Cardiff:2-0
+Burnley-Chelsea:0-4
+Burnley-Crystal:1-3
+Burnley-Everton:1-5
+Burnley-Fulham:2-1
+Burnley-Huddersfield:1-1
+Burnley-Leicster:1-2
+Burnley-Liverpool:1-3
+Burnley-Manchester City:0-1
+Burnley-Manchester:0-2
+Burnley-Newcastle:1-2
+Burnley-Southampton:1-1
+Burnley-Tottenham:2-1
+Burnley-Watford:1-3
+Burnley-WestHam:2-0
+Burnley-Wolvs:2-0
+Cardiff-Arsenal:2-3
+Cardiff-Bournemouth:2-0
+Cardiff-Brighton:2-1
+Cardiff-Burnley:1-2
+Cardiff-Chelsea:1-2
+Cardiff-Crystal:2-3
+Cardiff-Everton:0-3
+Cardiff-Fulham:4-2
+Cardiff-Huddersfield:0-0
+Cardiff-Leicster:0-1
+Cardiff-Liverpool:0-2
+Cardiff-Manchester City:0-5
+Cardiff-Manchester:1-5
+Cardiff-Newcastle:0-0
+Cardiff-Southampton:1-0
+Cardiff-Tottenham:0-3
+Cardiff-Watford:1-5
+Cardiff-WestHam:2-0
+Cardiff-Wolvs:2-1
+Chelsea-Arsenal:3-2
+Chelsea-Bournemouth:2-0
+Chelsea-Brighton:3-0
+Chelsea-Burnley:2-2
+Chelsea-Cardiff:4-1
+Chelsea-Crystal:3-1
+Chelsea-Everton:0-0
+Chelsea-Fulham:2-0
+Chelsea-Huddersfield:5-0
+Chelsea-Leicster:0-1
+Chelsea-Liverpool:1-1
+Chelsea-Manchester City:2-0
+Chelsea-Manchester:2-2
+Chelsea-Newcastle:2-1
+Chelsea-Southampton:0-0
+Chelsea-Tottenham:2-0
+Chelsea-Watford:3-0
+Chelsea-WestHam:2-0
+Chelsea-Wolvs:1-1
+Crystal-Arsenal:2-2
+Crystal-Bournemouth:5-3
+Crystal-Brighton:1-2
+Crystal-Burnley:2-0
+Crystal-Cardiff:0-0
+Crystal-Chelsea:0-1
+Crystal-Everton:0-0
+Crystal-Fulham:2-0
+Crystal-Huddersfield:2-0
+Crystal-Leicster:1-0
+Crystal-Liverpool:0-2
+Crystal-Manchester City:1-3
+Crystal-Manchester:1-3
+Crystal-Newcastle:0-0
+Crystal-Southampton:0-2
+Crystal-Tottenham:0-1
+Crystal-Watford:1-2
+Crystal-WestHam:1-1
+Crystal-Wolvs:0-1
+Everton-Arsenal:1-0
+Everton-Bournemouth:2-0
+Everton-Brighton:3-1
+Everton-Burnley:2-0
+Everton-Cardiff:1-0
+Everton-Chelsea:2-0
+Everton-Crystal:2-0
+Everton-Fulham:3-0
+Everton-Huddersfield:1-1
+Everton-Leicster:0-1
+Everton-Liverpool:0-0
+Everton-Manchester City:0-2
+Everton-Manchester:4-0
+Everton-Newcastle:1-1
+Everton-Southampton:2-1
+Everton-Tottenham:2-6
+Everton-Watford:2-2
+Everton-WestHam:1-3
+Everton-Wolvs:1-3
+Fulham-Arsenal:1-5
+Fulham-Bournemouth:0-3
+Fulham-Brighton:4-2
+Fulham-Burnley:4-2
+Fulham-Cardiff:1-0
+Fulham-Chelsea:1-2
+Fulham-Crystal:0-2
+Fulham-Everton:2-0
+Fulham-Huddersfield:1-0
+Fulham-Leicster:1-1
+Fulham-Liverpool:1-2
+Fulham-Manchester City:0-2
+Fulham-Manchester:0-3
+Fulham-Newcastle:0-4
+Fulham-Southampton:3-2
+Fulham-Tottenham:1-2
+Fulham-Watford:1-1
+Fulham-WestHam:0-2
+Fulham-Wolvs:1-1
+Huddersfield-Arsenal:1-2
+Huddersfield-Bournemouth:0-2
+Huddersfield-Brighton:1-2
+Huddersfield-Burnley:1-2
+Huddersfield-Cardiff:0-0
+Huddersfield-Chelsea:0-3
+Huddersfield-Crystal:0-1
+Huddersfield-Everton:0-1
+Huddersfield-Fulham:1-0
+Huddersfield-Leicster:1-4
+Huddersfield-Liverpool:0-1
+Huddersfield-Manchester City:0-3
+Huddersfield-Manchester:1-1
+Huddersfield-Newcastle:0-1
+Huddersfield-Southampton:1-3
+Huddersfield-Tottenham:0-2
+Huddersfield-Watford:1-2
+Huddersfield-WestHam:1-1
+Huddersfield-Wolvs:1-0
+Leicster-Arsenal:3-0
+Leicster-Bournemouth:2-0
+Leicster-Brighton:2-1
+Leicster-Burnley:0-0
+Leicster-Cardiff:0-1
+Leicster-Chelsea:0-0
+Leicster-Crystal:1-4
+Leicster-Everton:1-2
+Leicster-Fulham:3-1
+Leicster-Huddersfield:3-1
+Leicster-Liverpool:1-2
+Leicster-Manchester City:2-1
+Leicster-Manchester:0-1
+Leicster-Newcastle:0-1
+Leicster-Southampton:1-2
+Leicster-Tottenham:0-2
+Leicster-Watford:2-0
+Leicster-WestHam:1-1
+Leicster-Wolvs:2-0
+Liverpool-Arsenal:5-1
+Liverpool-Bournemouth:3-0
+Liverpool-Brighton:1-0
+Liverpool-Burnley:4-2
+Liverpool-Cardiff:4-1
+Liverpool-Chelsea:2-0
+Liverpool-Crystal:4-3
+Liverpool-Everton:1-0
+Liverpool-Fulham:2-0
+Liverpool-Huddersfield:5-0
+Liverpool-Leicster:1-1
+Liverpool-Manchester City:0-0
+Liverpool-Manchester:3-1
+Liverpool-Newcastle:4-0
+Liverpool-Southampton:3-0
+Liverpool-Tottenham:2-1
+Liverpool-Watford:5-0
+Liverpool-WestHam:4-0
+Liverpool-Wolvs:2-0
+Manchester City-Arsenal:3-1
+Manchester City-Bournemouth:3-1
+Manchester City-Brighton:2-0
+Manchester City-Burnley:5-0
+Manchester City-Cardiff:2-0
+Manchester City-Chelsea:6-0
+Manchester City-Crystal:2-3
+Manchester City-Everton:3-1
+Manchester City-Fulham:3-0
+Manchester City-Huddersfield:6-1
+Manchester City-Leicster:1-0
+Manchester City-Liverpool:2-1
+Manchester City-Manchester:3-1
+Manchester City-Newcastle:2-1
+Manchester City-Southampton:6-1
+Manchester City-Tottenham:1-0
+Manchester City-Watford:3-1
+Manchester City-WestHam:1-0
+Manchester City-Wolvs:3-0
+Manchester-Arsenal:2-2
+Manchester-Bournemouth:4-1
+Manchester-Brighton:2-1
+Manchester-Burnley:2-2
+Manchester-Cardiff:0-2
+Manchester-Chelsea:1-1
+Manchester-Crystal:0-0
+Manchester-Everton:2-1
+Manchester-Fulham:4-1
+Manchester-Huddersfield:3-1
+Manchester-Leicster:2-1
+Manchester-Liverpool:0-0
+Manchester-Manchester City:0-2
+Manchester-Newcastle:3-2
+Manchester-Southampton:3-2
+Manchester-Tottenham:0-3
+Manchester-Watford:2-1
+Manchester-WestHam:2-1
+Manchester-Wolvs:1-1
+Newcastle-Arsenal:1-2
+Newcastle-Bournemouth:2-1
+Newcastle-Brighton:0-1
+Newcastle-Burnley:2-0
+Newcastle-Cardiff:3-0
+Newcastle-Chelsea:1-2
+Newcastle-Crystal:0-1
+Newcastle-Everton:3-2
+Newcastle-Fulham:0-0
+Newcastle-Huddersfield:2-0
+Newcastle-Leicster:0-2
+Newcastle-Liverpool:2-3
+Newcastle-Manchester City:2-1
+Newcastle-Manchester:0-2
+Newcastle-Southampton:3-1
+Newcastle-Tottenham:1-2
+Newcastle-Watford:1-0
+Newcastle-WestHam:0-3
+Newcastle-Wolvs:1-2
+Southampton-Arsenal:3-2
+Southampton-Bournemouth:3-3
+Southampton-Brighton:2-2
+Southampton-Burnley:0-0
+Southampton-Cardiff:1-2
+Southampton-Chelsea:0-3
+Southampton-Crystal:1-1
+Southampton-Everton:2-1
+Southampton-Fulham:2-0
+Southampton-Huddersfield:1-1
+Southampton-Leicster:1-2
+Southampton-Liverpool:1-3
+Southampton-Manchester City:1-3
+Southampton-Manchester:2-2
+Southampton-Newcastle:0-0
+Southampton-Tottenham:2-1
+Southampton-Watford:1-1
+Southampton-WestHam:1-2
+Southampton-Wolvs:3-1
+Tottenham-Arsenal:1-1
+Tottenham-Bournemouth:5-0
+Tottenham-Brighton:1-0
+Tottenham-Burnley:1-0
+Tottenham-Cardiff:1-0
+Tottenham-Chelsea:3-1
+Tottenham-Crystal:2-0
+Tottenham-Everton:2-2
+Tottenham-Fulham:3-1
+Tottenham-Huddersfield:4-0
+Tottenham-Leicster:3-1
+Tottenham-Liverpool:1-2
+Tottenham-Manchester City:0-1
+Tottenham-Manchester:0-1
+Tottenham-Newcastle:1-0
+Tottenham-Southampton:3-1
+Tottenham-Watford:2-1
+Tottenham-WestHam:0-1
+Tottenham-Wolvs:1-3
+Watford-Arsenal:0-1
+Watford-Bournemouth:0-4
+Watford-Brighton:2-0
+Watford-Burnley:0-0
+Watford-Cardiff:3-2
+Watford-Chelsea:1-2
+Watford-Crystal:2-1
+Watford-Everton:1-0
+Watford-Fulham:4-1
+Watford-Huddersfield:3-0
+Watford-Leicster:2-1
+Watford-Liverpool:0-3
+Watford-Manchester City:1-2
+Watford-Manchester:1-2
+Watford-Newcastle:1-1
+Watford-Southampton:1-1
+Watford-Tottenham:2-1
+Watford-WestHam:1-4
+Watford-Wolvs:1-2
+WestHam-Arsenal:1-0
+WestHam-Bournemouth:1-2
+WestHam-Brighton:2-2
+WestHam-Burnley:4-2
+WestHam-Cardiff:3-1
+WestHam-Chelsea:0-0
+WestHam-Crystal:3-2
+WestHam-Everton:0-2
+WestHam-Fulham:3-1
+WestHam-Huddersfield:4-3
+WestHam-Leicster:2-2
+WestHam-Liverpool:1-1
+WestHam-Manchester City:0-4
+WestHam-Manchester:3-1
+WestHam-Newcastle:2-0
+WestHam-Southampton:3-0
+WestHam-Tottenham:0-1
+WestHam-Watford:0-2
+WestHam-Wolvs:0-1
+Wolvs-Arsenal:3-1
+Wolvs-Bournemouth:2-0
+Wolvs-Brighton:0-0
+Wolvs-Burnley:1-0
+Wolvs-Cardiff:2-0
+Wolvs-Chelsea:2-1
+Wolvs-Crystal:0-2
+Wolvs-Everton:2-2
+Wolvs-Fulham:1-0
+Wolvs-Huddersfield:0-2
+Wolvs-Leicster:4-3
+Wolvs-Liverpool:0-2
+Wolvs-Manchester City:1-1
+Wolvs-Manchester:2-1
+Wolvs-Newcastle:1-1
+Wolvs-Southampton:2-0
+Wolvs-Tottenham:2-3
+Wolvs-Watford:0-2
+Wolvs-WestHam:3-0
