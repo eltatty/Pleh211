@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Attempt 1.
-
 # Check for arguments (files).
 if [[ "${#}" -eq 0 ]]
 then

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Attempt 2.
-
 # Check for arguments.
 if [[ "${#}" -ne 1 ]] 
 then
@@ -52,7 +50,6 @@ do
 			TEAMS+=("${OBJ[I]}")
 		fi
 		
-
 		: '	
 		# Check if a team is already in the list else put it in.
 		if [[ ! "${TEAMS[@]}" =~ "${OBJ[I]}" ]]
@@ -61,8 +58,7 @@ do
 			
 		fi
 		'
-		
-
+	
 		# Scored, received.
 		SWAP=( 2 3 )
 
@@ -99,8 +95,7 @@ for K in "${TEAMS[@]}"
 do
 	#echo | awk -v A="${K}" -v B="${POINTS[${K}]} " -v C="${SCORED[${K}]}" -v D="${RECEIVED[${K}]}" '{ printf A"\t"B"\t"C"-"D"\n" }' >> tmp.txt
 	#echo ${K} ${POINTS[${K}]} ${SCORED[${K}]} ${RECEIVED[${K}]} | awk '{printf "%s\t%d\t%d-%d\n", $1, $2, $3, $4}' >> tmp.txt
-	echo "${K}	${POINTS[${K}]}	${SCORED[${K}]}-${RECEIVED[${K}]}" >> tmp.txt 
-	#echo "${K}"
+	echo "${K}	${POINTS[${K}]}	${SCORED[${K}]}-${RECEIVED[${K}]}" >> tmp.txt 	
 done
 
 # Sort the file numerically and lexicographically inverted then enumerate each line and add a dot. 
