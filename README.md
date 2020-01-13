@@ -23,3 +23,12 @@ Ex_32%
 python3 computeSales.py
 
 ---------------------------------------------
+
+Ex_40%
+---------------------------------------------
+
+./remoteServer portNumber numChildren
+
+./remoteClient serverName serverPORT receivePort inputFileWithCommands
+
+---------------------------------------------
